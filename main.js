@@ -22,12 +22,12 @@ function hasScrolled() {
         return;
     if (st > lastScrollTop && st > navbarHeight) {
         // Scroll Down
-        $('.navigation').css("background-color", "white").css("color", "gray");
-        $('a').css("color", "gray");
+        $('.navigation').css("background-color", "white").css("color", "#383838");
+        $('a').css("color", "#383838");
     } else {
         if (st) {
-            $('.navigation').css("background-color", "white").css("color", "gray");
-            $('a').css("color", "gray");
+            $('.navigation').css("background-color", "white").css("color", "#383838");
+            $('a').css("color", "#383838");
         }
 
         // Scroll Up

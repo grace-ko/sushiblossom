@@ -5,7 +5,7 @@ html {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
-    color: #494949;
+    color: #383838;
     font-family: "Playfair Display";
 }
 
@@ -139,12 +139,12 @@ nav {
 .facebook-review {
     display: inline-block;
     width: 300px;
-    height: 300px;
     font-size: 20px;
-    margin: 0;
-    padding: 0;
+    margin: 50px 20px 50px 20px;
 }
-
+.google-review p {
+    margin-top: 35px;
+}
 .rating-icon {
     width: 100px;
 }
@@ -155,25 +155,53 @@ nav {
 
 
 /* restaurant*/
+#about, #meetus {
+    background-color: #f9f9f9;
+}
+#meetus {
+        background: url('image/c&e.jpg') center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+.meetus, .meetus-opaque {
+    position: absolute;top: 0;
+    height: 400px;
+    width: 600px;
+    margin: auto;
 
+    display: inline-block;
+}
+.meetus-opaque {
+        opacity: 0.5;
+        background-color: white;
+}
 .flower2 {
     width: 200px;
-    margin: -50px 0px 0px -50px;
+    margin: -40px 0px 0px -50px;
 }
 
 .restaurant-image {
     display: inline-block;
 }
 
-.restaurant-image img {
-    width: 400px;
-    height: 300px;
+.restaurant-image img, .fav-dish img {
+    width: 300px;
+    height: 250px;
 }
 
 .body {
     margin: auto;
-    width: 80vw;
+    width: 70vw;
     text-align: left;
+    margin-bottom: 20px;
+
+}
+.body-bottom {
+    margin-bottom: 50px;
 }
 
 a.design {
@@ -182,17 +210,46 @@ a.design {
 
 .title {
     font-family: 'Josefin Sans';
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
+    margin-top: 50px;
+
 }
 
 
-.fav-dish {
+.fav-dish, #contact div {
     display: inline-block;
 }
-.fav-dish img {
-    width: 300px;
-    height: 200px;
+#contact {
+    height: 400px;
+}
+
+
+#contact p {
+    margin: 0;
+}
+
+.contact-left {
+    width: 40vw;
+       margin-left: 100px;
+
+    border: 1px solid;
+    
+}
+.contact-right {
+    margin-right: 100px;
+    text-align: right;
+    width: 40vw;
+
+    border: 1px solid;
+}
+.days {
+
+    width: 40%;
+text-align: left;
+}
+.hours {
+text-align: right;
 }
 
 /* media query */
