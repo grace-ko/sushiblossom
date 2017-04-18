@@ -162,23 +162,17 @@ nav {
 }
 
 #meetus {
-    background: url('image/c&e.jpg') center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
     height: 600px;
-    position: relative;
+  
 }
 
-.meetus,
-.meetus-opaque {
-    position: absolute;
-    top: 0;
-    height: 400px;
-    width: 600px;
+
+
+.wedding {
+    width: 300px;
+    display: block;
     margin: auto;
-    display: inline-block;
 }
 
 .meetus-opaque {
